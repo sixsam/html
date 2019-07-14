@@ -1,0 +1,71 @@
+body{
+    background: rgba(0, 0, 0, 0.12);
+
+}
+
+.contain{
+    width: 100%;
+    padding: 20px 0;
+}
+
+.contain .reg-contain{
+    width: 440px;
+    margin: auto;
+    background: white;
+    padding: 0 20px 20px;
+}
+
+.contain .reg-contain .reg-top{
+    height: 60px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    line-height: 60px;
+}
+
+.contain .reg-contain .reg-top h2{
+    border-bottom: 5px solid blue;
+    height: 60px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.contain .reg-contain .reg-top a{
+    float: right;
+    color: rgba(179, 21, 9, 0.76);
+}
+
+/*form*/
+.contain .reg-contain form div{
+    margin-top: 15px;
+    width: 440px;
+    height: 40px;
+}
+
+.contain .reg-contain form div input{
+    width: 440px;
+    height: 40px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.contain .reg-contain form div input.form-captcha,.contain .reg-contain form div input.captcha-graph{
+    width: 306px;
+}
+
+.contain .reg-contain form div input.message,.contain .reg-contain form div input.graph{
+    background: rgba(208, 203, 19, 0.19);
+    /*vertical-align: -2px;*/
+    float: right;
+    width: 122px;
+}
+
+.contain .reg-contain form div input.reg{
+    width: 122px;
+    margin-left: 155px;
+}
+
+/*
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+}*/
